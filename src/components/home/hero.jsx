@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 export const HeroSection = () => {
   return (
     <section className="relative flex min-h-dvh w-full items-end md:items-center">
-      <div className="absolute inset-0 z-0">
+      <div className=" absolute inset-0 z-0">
         <img
           src="/home-truck.jpeg"
           alt="Logistics fleet"

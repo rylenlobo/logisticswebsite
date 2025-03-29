@@ -126,7 +126,7 @@ export const Testimonials = () => {
     }, [swiper]);
 
     return (
-        <section className="py-16 px-5 flex items-center justify-center mt-[25rem] md:mt-64 min-h-screen relative w-dvw md:max-w-6xl mx-auto " aria-labelledby="testimonials-heading">
+        <section className="py-16 px-5 flex items-center justify-center mt-[35rem] md:mt-10 lg:mt-64 lg:min-h-dvh relative w-dvw md:max-w-6xl mx-auto " aria-labelledby="testimonials-heading">
             <div className="container relative">
                 <div className="my-5">
                     <Badge>Testimonials</Badge>

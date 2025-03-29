@@ -42,8 +42,8 @@ function AboutPage() {
   return (
     <main className='
     font-sans'>
-      <section className='min-h-dvh '>
-        <div className='max-w-6xl pt-28 flex flex-col md:flex-row justify-center md:items-start mx-auto gap-5 px-4'>
+      <section className='lg:min-h-dvh '>
+        <div className='max-w-6xl md:pt-28 flex flex-col md:flex-row justify-center md:items-start mx-auto gap-5 px-4'>
            
           {/* Left */}
           <div className="relative  h-96 w-full md:max-w-1/2 ">
@@ -71,7 +71,7 @@ function AboutPage() {
             <h2 className="mb-4 text-4xl font-bold">
            Our Company Overview
             </h2>
-            <p className='mb-8 text-lg  md:text-pretty leading-relaxed pr-2'>
+            <p className='mb-8 text-lg  text-justify leading-relaxed pr-2'>
              With a global reach, deep industry expertise, cutting-edge technology, and a vast transportation network, we provide innovative, tailored solutions to help customers optimize their supply chains and stay ahead in an ever-changing market. Whether you're an experienced shipper or navigating logistics for the first time, we’re here to support you at every step—from booking shipments and clearing customs to managing warehouses—ensuring a seamless and efficient experience.</p>
             <Button>
               <Link href="/services" >Learn More</Link>
