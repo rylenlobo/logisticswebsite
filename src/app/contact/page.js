@@ -56,20 +56,7 @@ const ContactPage = () => {
                   <p className="underline">(00) 123 456 789</p>
                 </div>
               </div>
-              <div className="flex items-center gap-4">
-                <div
-                  className="bg-primary text-primary-foreground flex h-12 w-12 items-center justify-center rounded-full"
-                  aria-label=" Mon – Sat 9.00 – 18.00 Sunday Closed"
-                >
-                  <Calendar className="text-white" />
-                </div>
-                <div>
-                  <p className="text-primary text-lg font-bold">
-                    Mon – Sat 9.00 – 18.00
-                  </p>
-                  <p>Sunday Closed</p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

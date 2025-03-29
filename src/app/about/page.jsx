@@ -112,7 +112,7 @@ function AboutPage() {
           {/* Truck Image - Large and covering most of the screen */}
           <div className="hidden md:block absolute inset-0 w-full h-full aspect-square">
             <img 
-              src="background-2.jpeg" 
+              src="/background-2.jpeg" 
               alt="Scania truck" 
               className="w-full h-full object-cover"
             />
