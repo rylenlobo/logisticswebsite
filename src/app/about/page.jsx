@@ -50,9 +50,9 @@ function AboutPage() {
           {/* Truck Image - Large and covering most of the screen */}
           <div className="absolute inset-0 w-full h-full aspect-square">
             <img 
-              src="truck.jpg" 
-              alt="Scania truck" 
-              className="w-full h-full object-cover"
+              src="/about-truck.jpeg" 
+              alt="truck" 
+              className="w-full h-full object-contain object-left"
             />
           </div>
           
@@ -73,7 +73,9 @@ function AboutPage() {
             </h2>
             <p className='mb-8 text-lg  md:text-pretty leading-relaxed pr-2'>
              With a global reach, deep industry expertise, cutting-edge technology, and a vast transportation network, we provide innovative, tailored solutions to help customers optimize their supply chains and stay ahead in an ever-changing market. Whether you're an experienced shipper or navigating logistics for the first time, we’re here to support you at every step—from booking shipments and clearing customs to managing warehouses—ensuring a seamless and efficient experience.</p>
-          <Button>Learn More</Button>
+            <Button>
+              <Link href="/services" >Learn More</Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -110,7 +112,7 @@ function AboutPage() {
           {/* Truck Image - Large and covering most of the screen */}
           <div className="hidden md:block absolute inset-0 w-full h-full aspect-square">
             <img 
-              src="truck.jpg" 
+              src="background-2.jpeg" 
               alt="Scania truck" 
               className="w-full h-full object-cover"
             />

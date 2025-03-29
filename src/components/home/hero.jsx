@@ -7,9 +7,9 @@ export const HeroSection = () => {
     <section className="relative flex min-h-dvh w-full items-end md:items-center">
       <div className="absolute inset-0 z-0">
         <img
-          src="/backgound.jpeg"
+          src="/home-truck.jpeg"
           alt="Logistics fleet"
-          className="h-full w-full object-cover object-center brightness-[0.5] md:object-right"
+          className="h-full w-full object-cover object-center brightness-[0.8] md:object-right"
         />
         {/* Responsive gradient overlay - bottom-to-top on mobile, side gradient on larger screens */}
 

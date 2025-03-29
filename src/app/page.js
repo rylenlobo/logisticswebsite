@@ -25,16 +25,3 @@ export default function Home() {
     </main>
   );
 }
-
-// const ServiceCard = ({ icon, title, description }) => {
-//   return (
-//     <div className="flex flex-col md:flex-row gap-4 items-start p-4 max-w-xl  ">
-//       <div className="flex-shrink-0">{icon}</div>
-//       <span className=" hidden md:block h-36 border-l" />
-//       <div>
-//         <h3 className="text-2xl md:text-xl mb-2 ">{title}</h3>
-//         <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
-//       </div>
-//     </div>
-//   );
-// };
